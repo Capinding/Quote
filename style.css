@@ -40,7 +40,6 @@ header {
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
-    text-align: justify;
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
 }
 .container-quote p {
@@ -48,10 +47,10 @@ header {
     margin-top: 15px;
     margin-bottom: 20px;
     padding: 0 20px;
+    text-align: justify;
     font-family: monospace;
 }
 #author-container {
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,6 +60,7 @@ header {
     text-align: center;
 }
 #author-container p {
+    text-align: center;
     font-size: 1rem;
     margin: 15px 0;
     font-weight: bold;
