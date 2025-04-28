@@ -44,10 +44,11 @@ header {
 }
 
 .container-quote p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     padding: 0 20px;
+    text-align: justify;
     font-family: monospace;
 }
 #author-container {
@@ -60,7 +61,7 @@ header {
     text-align: center;
 }
 #author-container p {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin: 15px 0;
     font-weight: bold;
 }
