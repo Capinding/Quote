@@ -7,7 +7,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: rgb(240, 240, 240);
     color: #333;
@@ -60,11 +59,11 @@ header {
     font-style: italic;
 }
 #author-container p {
+    text-align: center;
     font-size: 1.5rem;
     margin: 20px 0;
     font-weight: bold;
 }
-
 .container-quote button {
     padding: 10px 20px;
     border: none;
@@ -76,7 +75,6 @@ header {
     transition: background-color 100ms;
     font-family: monospace;
 }
-
 .container-quote button:hover {
     background-color: rgb(0, 105, 217);
 }
